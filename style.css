@@ -13,23 +13,23 @@
 
 /* Temporary Styles */
 
-* {
+/* * {
     padding: 0.5rem;
     border: 2px solid rgb(200,200,200);
-}
+} */
 
-html,
+/* html,
 body {
     border: none;
-}
+} */
 
-h1, h2, h3, h4, h5, h6, p, a {
+/* h1, h2, h3, h4, h5, h6, p, a {
     border: 2px solid rgb(224, 12, 12);
-}
+} */
 
-.bg-image {
+/* .bg-image {
     background-color: rgb(255, 208, 0);
-}
+} */
 
 /* End temporary styles */
 
@@ -64,6 +64,57 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+h1 { font-size: 8rem; }
+h2 { font-size: 2.5rem; }
+h3 { font-size: 1.8rem; }
+
+.not-bold { font-weight: 400; }
+
+.subtle { 
+    opacity: 0.8;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+p, li {
+ font-weight: 300;   
+ line-height: 1.4;
+ margin-bottom: 0.8rem;
+ font-size: 1.1rem;
+}
+
+p:last-child, 
+li:last-child {
+    margin-bottom: 0;
+}
+
+a { color: inherit; }
+
+nav a { text-decoration: none; }
+
+a:hover { color: #4e91ad; }
+
+.fab {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+
+/* Footer  */
+
+footer h2 {
+    font-size: 6rem;
+    line-height: 1;
+}
+
+footer p { margin-bottom: 0.2rem; }
+
 
 /* Background Images */
 
@@ -96,3 +147,9 @@ body {
 .bg-map {
     background-image: url('/images/the-bunker-6.png');
 }
+
+.bg-padded {
+    padding-bottom: 30%;
+}
+
+.social-banner { background-position: 50% 17%;}

@@ -173,6 +173,11 @@ footer p { margin-bottom: 0.2rem; }
     color: #24282B; 
 }
 
+.capped-width {
+    max-width: 1000px;
+    margin: auto;
+ }
+ 
 /* SM - max-width in pixels approximately 768px */
 @media (max-width: 48em) {
 

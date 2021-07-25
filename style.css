@@ -40,6 +40,7 @@ body {
 .tall-70 { min-height: 70vh; }
 .tall-80 { min-height: 80vh; }
 .tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
 
 .padded    { padding: 5%;    }
 .padded-lg { padding: 10%;   }
@@ -154,6 +155,23 @@ footer p { margin-bottom: 0.2rem; }
 
 .social-banner { background-position: 50% 17%;}
 
+/*  Explore Page */
+
+.explore-page h1 {
+    margin-bottom: 1rem;
+}
+
+.explore-page a {
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid;
+    margin-bottom: 0.5rem;
+}
+
+.explore-page .featured {
+    background-color: tan; 
+    color: #24282B; 
+}
 
 /* SM - max-width in pixels approximately 768px */
 @media (max-width: 48em) {
